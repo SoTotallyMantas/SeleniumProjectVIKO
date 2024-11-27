@@ -273,6 +273,17 @@ namespace SeleniumProjectVIKO
                 }
 
             }
+            try
+            {
+                IWebElement Test_Field = seleniumDriver.FindElementByXPath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/form/div[1]/div/div[2]/div/div[2]/input");
+                Test_Field.SendKeys("123");
+                System.Threading.Thread.Sleep(1000);
+            }
+            catch
+            {
+
+            }
+
             ReadOnlyCollection<IWebElement> SelectInputs = driver.FindElements(By.XPath("//div[@class='oxd-select-text oxd-select-text--active']"));
             foreach (IWebElement input in SelectInputs)
             {
