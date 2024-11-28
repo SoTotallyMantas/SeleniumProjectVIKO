@@ -59,29 +59,29 @@
             // 
             button3.Location = new Point(246, 12);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(100, 23);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "3 Scenarijus";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(327, 12);
+            button4.Location = new Point(352, 13);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(115, 23);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "4 Scenarijus";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(408, 12);
+            button5.Location = new Point(473, 13);
             button5.Name = "button5";
-            button5.Size = new Size(75, 23);
+            button5.Size = new Size(110, 23);
             button5.TabIndex = 4;
-            button5.Text = "button5";
+            button5.Text = "5 Scenarijus";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
