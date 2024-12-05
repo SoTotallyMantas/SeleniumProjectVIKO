@@ -390,11 +390,12 @@ namespace SeleniumProjectVIKO
 
 
             //input[@placeholder='First Name']
-            IWebElement FirstName = seleniumDriver.FindElementByXPath("//input[@placeholder='First Name']");
+            
+            IWebElement FirstName = seleniumDriver.FindElementByXPath("//input[@placeholder='First name']");
             FirstName.SendKeys("TestFirst");
             System.Threading.Thread.Sleep(1000);
             //input[@placeholder='Middle Name']
-            IWebElement MiddleName = seleniumDriver.FindElementByXPath("//input[@placeholder='Middle Name']");
+            IWebElement MiddleName = seleniumDriver.FindElementByXPath("//input[@placeholder='Middle name']");
             MiddleName.SendKeys("TestMiddle");
             System.Threading.Thread.Sleep(1000);
 
